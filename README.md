@@ -17,16 +17,10 @@ This repository contains implementations of stock forecasting models and strateg
 
    The Autoregressive (AR) model predicts future values in a time series using its own past values as predictors. It assumes a linear relationship between the variable and its lagged values, aiming to capture patterns and trends for forecasting.          Mathematically, the AR model is represented as x_t = c + ∑_{i=1}^{p} ϕ_i * x_{t-i} + ε_t, where x_t​ where ϕ_i​ are autoregressive coefficients.
 
-4. **Simple/Exponential/Cross Moving Strategy Folder**
+3. **Simple/Exponential/Cross Moving Strategy Folder**
    - `simple_moving_strategy.py`: Contains the implementation of the simple moving average strategy.
    - `exponential_moving_strategy.py`: Contains the implementation of the exponential moving average strategy.
    - `cross_moving_strategy.py`: Contains the implementation of the crossover moving average strategy.
 
    The Simple, Exponential, and Cross Moving Average strategies are technical analysis tools used to identify trading signals based on moving averages of stock prices. These strategies are commonly used in algorithmic trading.
-
-## Usage
-
-Each folder contains Python scripts for the respective forecasting models or trading strategies. You can import and use these scripts in your own projects for stock forecasting and trading.
-
-Feel free to explore the implementations and modify them according to your requirements.
 
