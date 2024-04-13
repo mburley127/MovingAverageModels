@@ -1,4 +1,4 @@
-# Stock Forecasting Project
+# Stock Moving Average Forecasting Project
 
 This repository contains implementations of stock forecasting models and strategies in Python. The project is organized into three main projects:
 
